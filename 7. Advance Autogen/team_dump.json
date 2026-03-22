@@ -25,7 +25,7 @@
             "label": "OpenAIChatCompletionClient",
             "config": {
               "model": "gpt-4o",
-              "api_key": "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"
+              "api_key": ""
             }
           },
           "tools": [],

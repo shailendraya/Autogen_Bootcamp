@@ -75,7 +75,7 @@ arxiv_tool = FunctionTool(
 
 def build_team(model: str = "gpt-4o-mini") -> RoundRobinGroupChat:
     """Create and return a two‑agent *RoundRobinGroupChat* team."""
-    llm_client = OpenAIChatCompletionClient(model=model,api_key='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')
+    llm_client = OpenAIChatCompletionClient(model=model,api_key='')
 
     # Agent that **only** calls the arXiv tool and forwards top‑N papers
     search_agent = AssistantAgent(
