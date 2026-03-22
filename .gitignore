@@ -1,0 +1,20 @@
+.env
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+autogen-env/
+venv/
+.env/
+
+# Temp files (IMPORTANT)
+temp/
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
